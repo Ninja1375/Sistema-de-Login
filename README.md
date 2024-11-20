@@ -1,6 +1,17 @@
-**Veja o projeto ao vivo:**
+# Importante!
+
+**Para acessar o sistema, as credenciais são:**
+
+Usuário = **admin**
+
+Senha = **12345**
+
+
+## Veja o projeto ao vivo:
 
 **[Sistema de Login](https://ninja1375.github.io/Sistema-de-Login/)**
+
+## Introdução 
 
 O projeto é um **Sistema de Login Simples** desenvolvido utilizando apenas HTML, CSS e JavaScript , com o objetivo de criar uma interface de autenticação funcional e visualmente agradável. Ele simula o processo de login, permitindo que o usuário insira suas credenciais (usuário e senha), valide-as localmente (sem um backend) e acesse um perfil personalizado. É um sistema básico e adequado para projeções, estudos ou protótipos de aplicações web.
 
