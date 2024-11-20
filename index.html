@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="login-form" class="container active">
+    <h1>Login</h1>
+    <label for="username">Usuário</label>
+    <input type="text" id="username" placeholder="Digite o usuário">
+    <label for="password">Senha</label>
+    <div class="password-container">
+      <input type="password" id="password" placeholder="Digite a senha">
+      <button type="button" id="toggle-password">Mostrar</button>
+    </div>
+    <button onclick="login()">Entrar</button>
+  </div>
+
+  <div id="profile" class="container">
+    <h1>Bem-vindo!</h1>
+    <div class="profile-container">
+      <img src="https://via.placeholder.com/120?text=Admin" alt="Imagem de Perfil" class="profile-img">
+      <p class="user-info">Usuário: <span id="user-name"></span></p>
+    </div>
+    <button class="logout" onclick="logout()">Sair</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
